@@ -23,6 +23,7 @@
            org.apache.lucene/lucene-core    {:mvn/version "8.8.0"}
            org.apache.lucene/lucene-queries {:mvn/version "8.8.0"}
 
+           org.lmdbjava/lmdbjava            {:mvn/version "0.8.1"}
            org.mapdb/mapdb                  {:mvn/version "3.0.8"}
 
            io.pedestal/pedestal.service     {:mvn/version "0.5.8"}
