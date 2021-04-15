@@ -200,7 +200,8 @@
 (def service-map
   {::http/routes routes
    ::http/type   :jetty
-   ::http/port   8081})
+   ::http/port   8081
+   ::http/allowed-origins {:creds true :allowed-origins (constantly true)}})
 
 (defn start-server
   ([svc port] (start-server svc port true))
